@@ -1,1 +1,1 @@
-# In Common: data-agnostic collaborative recommendation engine
+# In Common: data-agnostic, graph-based collaborative recommendation engine
