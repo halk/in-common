@@ -1,0 +1,13 @@
+gom 'github.com/gorilla/context'
+gom 'github.com/gorilla/mux'
+gom 'github.com/gorilla/schema'
+gom 'github.com/bmizerany/assert'
+gom 'github.com/jmcvetta/napping'
+gom 'github.com/jmcvetta/neoism'
+gom 'github.com/jmcvetta/randutil'
+gom 'github.com/kr/pretty'
+gom 'github.com/kr/text'
+
+group :test do
+    gom 'github.com/stretchr/testify'
+end
