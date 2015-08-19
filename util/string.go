@@ -1,4 +1,4 @@
-// The inCommon/util package provides very few utility helpers
+// The in-common/util package provides very few utility helpers
 package util
 
 import "unicode"

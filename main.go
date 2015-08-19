@@ -1,5 +1,6 @@
-// The inCommon package is a collaborative-filtering recommendation engine
-// making use of the graph and NoSQL models of Neo4j
+// The in-common package is a data-agnostic, graph-based recommendation engine
+//
+// see https://github.com/halk/in-common for details
 package main
 
 import (

@@ -1,4 +1,4 @@
-// The inCommon/api package serves the API
+// The in-common/api package serves the API
 package api
 
 import (

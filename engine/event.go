@@ -1,4 +1,4 @@
-// The inCommon/engine package provides the internal interface to the graph package
+// The in-common/engine package provides the internal interface to the graph package
 package engine
 
 import (

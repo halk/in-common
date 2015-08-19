@@ -1,4 +1,4 @@
-// The inCommon/model package has data structs and minimal data manipulating methods
+// The in-common/model package has data structs and minimal data manipulating methods
 package model
 
 // Recommendation contains a list of recommendations

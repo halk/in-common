@@ -1,4 +1,4 @@
-// The inCommon/graph package holds the actual graph and recommendation logic
+// The in-common/graph package holds the actual graph and recommendation logic
 package graph
 
 import (
@@ -12,7 +12,7 @@ import (
 
 // GetGraph returns a connected neoism.Database
 func GetGraph() *neoism.Database {
-	if os.Getenv("IN_COMMON_NEO4J_DSN") {
+	if os.Getenv("IN_COMMON_NEO4J_DSN") != "" {
 		dsn := os.Getenv("IN_COMMON_NEO4J_DSN")
 	} else {
 		dsn := "http://neo4j:vagrant@localhost:7474/db/data"
