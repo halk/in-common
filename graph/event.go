@@ -2,8 +2,8 @@ package graph
 
 import (
 	"errors"
+	"github.com/halk/in-common/model"
 	"github.com/jmcvetta/neoism"
-	"inCommon/model"
 )
 
 // CreateNodesAndRelationship creates a relationship and their nodes if they do

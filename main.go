@@ -3,7 +3,7 @@
 package main
 
 import (
-	"inCommon/api"
+	"github.com/halk/in-common/api"
 	"log"
 	"net/http"
 )

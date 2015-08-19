@@ -3,9 +3,9 @@ package graph
 
 import (
 	"fmt"
+	"github.com/halk/in-common/model"
+	"github.com/halk/in-common/util"
 	"github.com/jmcvetta/neoism"
-	"inCommon/model"
-	"inCommon/util"
 	"os"
 	"strings"
 )

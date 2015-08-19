@@ -2,8 +2,8 @@
 package engine
 
 import (
-	"inCommon/graph"
-	"inCommon/model"
+	"github.com/halk/in-common/graph"
+	"github.com/halk/in-common/model"
 )
 
 // Process add events

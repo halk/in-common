@@ -2,11 +2,10 @@ package graph
 
 import (
 	"fmt"
-	"inCommon/model"
-	"inCommon/util"
-	"strings"
-
+	"github.com/halk/in-common/model"
+	"github.com/halk/in-common/util"
 	"github.com/jmcvetta/neoism"
+	"strings"
 )
 
 // GetRecommendations returns a list of recommended IDs

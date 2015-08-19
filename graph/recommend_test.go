@@ -1,8 +1,8 @@
 package graph
 
 import (
+	"github.com/halk/in-common/model"
 	"github.com/stretchr/testify/assert"
-	"inCommon/model"
 	"testing"
 )
 
