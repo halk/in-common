@@ -14,7 +14,7 @@ import (
 func GetGraph() *neoism.Database {
 	dsn := os.Getenv("IN_COMMON_NEO4J_DSN")
 	if dsn == "" {
-		dsn = "http://neo4j:vagrant@localhost:7474/db/data"
+		dsn = "http://neo4j:neo4j@localhost:7474/db/data"
 	}
 
 	db, err := neoism.Connect(dsn)

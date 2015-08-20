@@ -17,7 +17,7 @@ func CreateNodesAndRelationship(r *model.Relationship) error {
 	if err != nil {
 		panic(err)
 	}
-	if subject == nil || subject.Id() == 0 {
+	if subject == nil {
 		return errors.New("Could not create subject node")
 	}
 
@@ -25,7 +25,7 @@ func CreateNodesAndRelationship(r *model.Relationship) error {
 	if err != nil {
 		panic(err)
 	}
-	if object == nil || object.Id() == 0 {
+	if object == nil {
 		return errors.New("Could not create object node")
 	}
 
