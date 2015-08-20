@@ -16,3 +16,5 @@ before_install:
     # get dependencies
     - go get github.com/mattn/gom
     - gom install
+
+script: gom test ./...
