@@ -1,3 +1,6 @@
+coverage.out
+coverage.html
+
 /log/*
 !/log/.gitkeep
 /_vendor
