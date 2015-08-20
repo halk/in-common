@@ -33,6 +33,6 @@ func TestLogger(t *testing.T) {
 	handler.ServeHTTP(w, r)
 
 	logged := buf.String()
-	assert.NotEqual(t, "", logged, "Unexpected logged line")
+	assert.NotEqual(t, "", logged, "Unexpected logged line"+logged)
 	assert.Contains(t, logged, "GET\t/test\ttestroute", "Unexpected logged line")
 }

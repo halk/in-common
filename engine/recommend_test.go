@@ -19,7 +19,7 @@ func TestGetRecommendations(t *testing.T) {
 	rq := model.RecommendationRequest{"Tester", "tester1", "Test", "tested", 5}
 	recommendation, err := GetRecommendations(&rq)
 	if err != nil {
-		assert.Fail(t, "Unexpected error")
+		assert.Fail(t, "Unexpected error:"+err.Error())
 	} else {
 		assert.Len(t, recommendation.Results, 2, "Unexpected size of results")
 	}
@@ -27,7 +27,7 @@ func TestGetRecommendations(t *testing.T) {
 	ProcessRemoveEvent(&r4)
 	recommendation, err = GetRecommendations(&rq)
 	if err != nil {
-		assert.Fail(t, "Unexpected error")
+		assert.Fail(t, "Unexpected error:"+err.Error())
 	} else {
 		assert.Len(t, recommendation.Results, 1, "Unexpected size of results")
 	}
