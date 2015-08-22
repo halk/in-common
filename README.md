@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/halk/in-common.svg?branch=master)](https://travis-ci.org/halk/in-common)
+[![GoDoc](http://img.shields.io/badge/go-documentation-brightgreen.svg)](https://godoc.org/github.com/halk/in-common)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/halk/in-common/blob/master/LICENSE)
 
 # In Common: data-agnostic, graph-based collaborative recommendation engine
