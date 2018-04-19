@@ -2,14 +2,14 @@ package api
 
 import (
 	"bytes"
-	"errors"
 	"fmt"
-	"github.com/gorilla/mux"
-	"github.com/stretchr/testify/assert"
 	"log"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/gorilla/mux"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestMain(m *testing.M) {
@@ -153,7 +153,7 @@ func match(r *http.Request, t *testing.T) *httptest.ResponseRecorder {
 		if t != nil {
 			assert.Fail(t, "Request could not be matched")
 		} else {
-			errors.New("Request could not be matched")
+			log.Print("Request could not be matched")
 		}
 		return nil
 	}
